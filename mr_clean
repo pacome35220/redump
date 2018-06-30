@@ -1,0 +1,4 @@
+find ./ -name "*~" -delete 2>/dev/null
+find ./ -name "#*#" -delete 2>/dev/null
+find ./ -name ".#*" -delete 2>/dev/null
+find ./ -name "vgcore.*" -delete 2>/dev/null

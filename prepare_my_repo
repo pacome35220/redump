@@ -1,0 +1,8 @@
+if [ ! -z "$1" ] ; then
+    blih -u pacome.francon@epitech.eu repository create $1
+    blih -u pacome.francon@epitech.eu repository setacl $1 ramassage-tek r
+    blih -u pacome.francon@epitech.eu repository getacl $1
+    git clone git@git.epitech.eu:/pacome.francon@epitech.eu/$1
+else
+    echo -e "USAGE : \n\t prepare_my_repo repo_name"
+fi
