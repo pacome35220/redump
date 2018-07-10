@@ -15,6 +15,8 @@
 (load "std_comment.el")
 (load "web-beautify.el")
 
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . js2-mode))
+
 (require 'web-beautify)
 (eval-after-load 'js2-mode
   '(define-key js2-mode-map (kbd "C-c C-q") 'web-beautify-js))
