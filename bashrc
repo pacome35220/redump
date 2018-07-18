@@ -10,7 +10,7 @@ alias la="ls -la"
 alias gitkraken="/opt/gitkraken/gitkraken"
 alias postman="/opt/postman/postman"
 
-export GIT_EDITOR=emacs
+export GIT_EDITOR="emacs -nw"
 
 export LANG=en_US.utf8
 

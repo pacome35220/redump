@@ -10,7 +10,6 @@
 (normal-erase-is-backspace-mode 0)
 
 ; Define keyboard shortcuts
-(global-set-key "" 'backward-delete-char)
 (global-set-key "" 'compile)
 (global-set-key "" 'goto-line)
 
