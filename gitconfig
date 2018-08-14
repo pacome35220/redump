@@ -1,0 +1,5 @@
+[core]
+	excludesFile = /home/pacome.francon/.gitignore
+[user]
+	name = Pacôme Françon
+	email = pacome.francon@epitech.eu
