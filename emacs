@@ -14,13 +14,6 @@
 (load "std.el")
 (load "std_comment.el")
 (load "web-beautify.el")
-(load "typescript-mode.el")
-
-(load "ng2-html.el")
-(load "ng2-mode.el")
-(load "ng2-ts.el")
-
-(require 'ng2-mode)
 
 (require 'web-beautify)
 (eval-after-load 'js2-mode
@@ -40,8 +33,6 @@
 
 (eval-after-load 'css-mode
   '(define-key css-mode-map (kbd "C-c C-q") 'web-beautify-css))
-
-(global-set-key (kbd "C-c C-q") 'web-beautify-js)
 
 (setq make-backup-files nil)
 (menu-bar-mode -1)
