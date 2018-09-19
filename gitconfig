@@ -3,3 +3,5 @@
 [user]
 	name = Pacôme Françon
 	email = pacome.francon@epitech.eu
+[alias]
+	today = log -p --since=midnight
