@@ -12,7 +12,7 @@ alias postman="/opt/postman/postman"
 export GIT_EDITOR="emacs -nw"
 
 norminette() {
-    norminette.pl -q --no-tree --show-types --showfile --ignore SPDX_LICENSE_TAG,BLOCK_COMMENT_STYLE,CONST_STRUCT,NEW_TYPEDEFS --file `find ./ -name *.c` `find ./ -name *.h`
+    norminette.pl -q --no-tree --show-types --showfile --ignore SPDX_LICENSE_TAG,BLOCK_COMMENT_STYLE,CONST_STRUCT,NEW_TYPEDEFS --file `find ./ -name "*.c"` `find ./ -name "*.h"`
 }
 
 export LANG=en_US.utf8
