@@ -34,6 +34,8 @@
 (eval-after-load 'css-mode
   '(define-key css-mode-map (kbd "C-c C-q") 'web-beautify-css))
 
+(xterm-mouse-mode)
+
 (setq make-backup-files nil)
 (menu-bar-mode -1)
 (add-hook 'after-save-hook 'whitespace-cleanup)
