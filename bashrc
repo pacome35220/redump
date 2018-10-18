@@ -9,6 +9,7 @@ alias ne="emacs -nw"
 alias la="ls -la"
 alias gitkraken="/opt/gitkraken/gitkraken"
 alias postman="/opt/postman/postman"
+alias disas="objdump -drwCS -Mintel"
 export GIT_EDITOR="emacs -nw"
 
 norminette() {
