@@ -8,15 +8,21 @@ fi
 alias ne="emacs -nw"
 alias la="ls -la"
 alias gitkraken="/opt/gitkraken/gitkraken"
-alias postman="/opt/postman/postman"
+alias postman="/opt/postman/Postman"
 alias disas="objdump -drwCS -Mintel"
-export GIT_EDITOR="emacs -nw"
 
 norminette() {
-    norminette.pl -q --no-tree --show-types --showfile --ignore SPDX_LICENSE_TAG,BLOCK_COMMENT_STYLE,CONST_STRUCT,NEW_TYPEDEFS --file `find ./ -name "*.c"` `find ./ -name "*.h"`
+    src=$(find ./ -name "*.c")
+    include=$(find ./ -name "*.h")
+    norminette.pl -q --no-tree --show-types --showfile --ignore SPDX_LICENSE_TAG,BLOCK_COMMENT_STYLE,CONST_STRUCT,NEW_TYPEDEFS --file $src $include
 }
 
+export GIT_EDITOR="emacs -nw"
 export LANG=en_US.utf8
+
+if [[ $PATH != *"node_modules/.bin"* ]]; then
+    export PATH=./node_modules/.bin:$PATH
+fi
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=O
