@@ -7,5 +7,7 @@
 *.o
 *.so
 *.out
+*.gcda
+*.gcno
 vgcore.*
 node_modules
