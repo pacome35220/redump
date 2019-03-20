@@ -2,7 +2,7 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+        . /etc/bashrc
 fi
 
 alias ne="emacs -nw"
@@ -14,10 +14,9 @@ alias disas="objdump -drwCS -Mintel"
 norminette() {
     src=$(find ./ -name "*.c")
     include=$(find ./ -name "*.h")
-    norminette.pl -q --no-tree --show-types --showfile --ignore SPDX_LICENSE_TAG,BLOCK_COMMENT_STYLE,CONST_STRUCT,NEW_TYPEDEFS --file $src $include
+    norminette.pl -q --no-tree --show-types --showfile --ignore SPDX_LICENSE_TAG,BLOCK_COMMENT_STYLE,CONST_STRUCT,NEW_TYPEDEFS,LEADING_SPACE,CODE_INDENT,SUSPECT_CODE_INDENT --file $src $include
 }
 
-export GIT_EDITOR="emacs -nw"
 export LANG=en_US.utf8
 
 if [[ $PATH != *"node_modules/.bin"* ]]; then

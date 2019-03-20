@@ -11,3 +11,4 @@
 *.gcno
 vgcore.*
 node_modules
+.vscode
