@@ -1,11 +1,11 @@
 [core]
-        excludesFile = /home/pacome.francon/.gitignore
-        editor = emacs -nw
+	excludesFile = /home/pacome.francon/.gitignore
+	editor = emacs -nw
 [user]
-        name = Pacôme Françon
-        email = pacome.francon@epitech.eu
+	name = Pacôme Françon
+	email = pacome.francon@epitech.eu
 [alias]
-        today = log -p --since=midnight
+	today = log -p --since=midnight
 	resume = log --stat
 [branch]
 	autosetuprebase = always
