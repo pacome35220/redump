@@ -1,0 +1,66 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+a",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 10
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 10
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.action.terminal.deleteWordRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-workbench.action.terminal.deleteWordRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    }
+]
