@@ -1,57 +1,44 @@
 {
-    "editor.autoClosingBrackets": "never",
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.trimTrailingWhitespace": true,
-    "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 0,
-    "git.confirmSync": false,
-    "terminal.integrated.rendererType": "dom",
     "breadcrumbs.enabled": true,
-    "workbench.startupEditor": "none",
-    "editor.minimap.enabled": true,
-    "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": false,
-    "window.menuBarVisibility": "toggle",
-    "window.restoreWindows": "all",
+    "diffEditor.renderSideBySide": false,
+    "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
-    "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true,
-    "search.exclude": {
-        ".git": true
-    },
-    "C_Cpp.updateChannel": "Insiders",
-    "C_Cpp.clang_format_style": "{ IndentWidth: 4, AllowShortFunctionsOnASingleLine: Empty, AccessModifierOffset: -4}",
-    "C_Cpp.clang_format_sortIncludes": false,
+    "editor.detectIndentation": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c11",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": false,
+        "markdown": true
     },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "html.format.endWithNewline": true,
+    "search.exclude": {
+        ".git": true,
+        "**/.angular": true,
+        "**/coverage": true,
+        "**/dist": true
     },
+    "scssFormatter.singleQuote": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.startupEditor": "none",
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.sideBar.location": "left",
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.tabSize": 4
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "prettier.jsxSingleQuote": true,
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "workbench.preferredLightColorTheme": "Tomorrow Night Blue",
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "[dockercompose]": {
+        "editor.tabSize": 2
+    }
 }
