@@ -1,44 +1,50 @@
 {
-    "breadcrumbs.enabled": true,
-    "diffEditor.renderSideBySide": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
-    "editor.detectIndentation": false,
+    "editor.bracketPairColorization.enabled": false,
     "editor.inlineSuggest.enabled": true,
+    "editor.largeFileOptimizations": false,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
     "editor.suggestSelection": "first",
-    "eslint.alwaysShowStatus": true,
-    "eslint.format.enable": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "files.insertFinalNewline": true,
+    "files.associations": {
+	"*.yml": "yaml"
+    },
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": false,
-        "markdown": true
-    },
-    "html.format.endWithNewline": true,
+    "git.mergeEditor": true,
+    "gitblame.statusBarMessageFormat": "Blame ${author.name} (${author.date})",
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
     "search.exclude": {
-        ".git": true,
-        "**/.angular": true,
-        "**/coverage": true,
-        "**/dist": true
+	".git": true,
+	"**/.angular": true,
+	"**/coverage": true,
+	"**/dist": true
     },
-    "scssFormatter.singleQuote": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "workbench.startupEditor": "none",
     "[typescript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.tabSize": 4
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "[dockercompose]": {
-        "editor.tabSize": 2
-    }
+    "[html]": {
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "diffEditor.diffAlgorithm": "advanced",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "files.insertFinalNewline": true,
+    "diffEditor.renderSideBySide": false,
+    "git.openRepositoryInParentFolders": "never",
+    "scm.showIncomingChanges" : "never",
+    "scm.showOutgoingChanges": "never",
+    "eslint.format.enable": true,
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "playwright.reuseBrowser": false,
 }

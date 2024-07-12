@@ -13,3 +13,5 @@
 vgcore.*
 node_modules
 .vscode
+dist
+.angular

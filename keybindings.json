@@ -9,10 +9,6 @@
         "command": "cursorLineEnd"
     },
     {
-        "key": "alt+x",
-        "command": "workbench.action.showCommands"
-    },
-    {
         "key": "ctrl+q",
         "command": "-workbench.action.quit"
     },
@@ -28,11 +24,6 @@
         "key": "ctrl+a",
         "command": "-editor.action.selectAll",
         "when": "textInputFocus"
-    },
-    {
-        "key": "alt+d",
-        "command": "workbench.action.terminal.deleteWordRight",
-        "when": "terminalFocus"
     },
     {
         "key": "ctrl+delete",
@@ -86,5 +77,5 @@
             "to": "nextBlankLine"
         },
         "when": "editorTextFocus"
-    },
+    }
 ]

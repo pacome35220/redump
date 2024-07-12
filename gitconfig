@@ -7,5 +7,5 @@
 [alias]
 	today = log -p --since=midnight
 	resume = log --stat
-[branch]
-	autosetuprebase = always
+[init]
+	defaultBranch = master
